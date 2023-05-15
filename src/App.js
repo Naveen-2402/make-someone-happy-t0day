@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Front from './Front';
+import Load from './Load';
+import Paper from './Paper';
+import Smile from './Smile';
+import Ticket from './Ticket';
+import { useState } from 'react';
 
 function App() {
+
+  const [handlenum, sethandlenum] = useState(0)
+
+  const handlenumber =(e)=> {
+    sethandlenum(e)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {/*<Front/>*/}
+      {/*<Load/>*/}
+      {/*<Ticket/>*/}
+      {/*<Paper/>*/}
+      {/*<Smile/>*/}
+      { handlenum==0 ? <Front number={handlenumber}/> : null}
+      { handlenum==99 ? <Load number={handlenumber}/> : null}
+      { handlenum==1 ? <Ticket number={handlenumber}/> : null}
+      { handlenum==2 ? <Paper number={handlenumber}/> : null}
+      { handlenum==3 ? <Smile/> : null}
     </div>
   );
 }
