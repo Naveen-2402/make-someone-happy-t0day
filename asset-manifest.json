@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/make-someone-happy-t0day/static/css/main.3e681a8f.css",
+    "main.js": "/make-someone-happy-t0day/static/js/main.48ec45ae.js",
+    "static/js/787.da2efaae.chunk.js": "/make-someone-happy-t0day/static/js/787.da2efaae.chunk.js",
+    "index.html": "/make-someone-happy-t0day/index.html",
+    "main.3e681a8f.css.map": "/make-someone-happy-t0day/static/css/main.3e681a8f.css.map",
+    "main.48ec45ae.js.map": "/make-someone-happy-t0day/static/js/main.48ec45ae.js.map",
+    "787.da2efaae.chunk.js.map": "/make-someone-happy-t0day/static/js/787.da2efaae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e681a8f.css",
+    "static/js/main.48ec45ae.js"
+  ]
+}
